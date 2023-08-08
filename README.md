@@ -44,13 +44,12 @@
         . bgallery_scrapp.py
         . bgallery_db.py
         . bgallery_flask.py  
+
+      Run scrapp files in the following way   
         
-      [Run scrapp file in this way]()
+![Run scrapp file in this way](https://github.com/MuhammadMudassirRaza12345/scrape_e-commerce_data_and_dump_in_sql_and_showdata_on_frontend_using_flask/blob/main/app1_Run.PNG)
         
-           
- - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
- - [Awesome README](https://github.com/matiassingers/awesome-readme)
- - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)      
+  
 
 ### Task 2: Write queries using the ORG database we have used in class.       
     1)Write an SQL query to show the second highest salary from a table.
@@ -61,6 +60,10 @@
 
     4)Write an SQL query to show only odd rows from a table.
 
+### Solution    
+   - [In queries.txt file](https://github.com/MuhammadMudassirRaza12345/scrape_e-commerce_data_and_dump_in_sql_and_showdata_on_frontend_using_flask/blob/main/queries.txt)
+
+
 ### Task 3: change cron job into human command and human to cron jobs.
      1) 0 17 * * 0-5
      2) 11 5 * * 5,6 
@@ -69,4 +72,9 @@
      5) 0 7,17 * * * 
      6) * * * * *  sleep 15; /scripts/script.sh 
 
+### Solution    
+   - [In cron.txt file](https://github.com/MuhammadMudassirRaza12345/scrape_e-commerce_data_and_dump_in_sql_and_showdata_on_frontend_using_flask/blob/main/cron.txt)
+
+![cron file](https://github.com/MuhammadMudassirRaza12345/scrape_e-commerce_data_and_dump_in_sql_and_showdata_on_frontend_using_flask/blob/main/cron.PNG)
       
+ 
