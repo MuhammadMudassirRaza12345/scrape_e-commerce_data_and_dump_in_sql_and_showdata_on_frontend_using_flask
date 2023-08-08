@@ -34,9 +34,19 @@
       daily data using python library/code, first priority is to create a remote database or 
       google sheet and upload data into that if not then upload data into the local mysql table.
 
-###  Code
+###  Solution
       For Daraz:
-        [daraz]
+        . daraz_scrapp.py
+        . daraz_db.py
+        . daraz_flask.py
+
+      For bgallery:
+        . bgallery_scrapp.py
+        . bgallery_db.py
+        . bgallery_flask.py  
+        
+      [Run scrapp file in this way]()
+        
            
  - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
  - [Awesome README](https://github.com/matiassingers/awesome-readme)
