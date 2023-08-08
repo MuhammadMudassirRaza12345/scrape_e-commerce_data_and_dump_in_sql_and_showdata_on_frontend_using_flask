@@ -1,0 +1,29 @@
+Task 3: change cron job into human command and human to cron jobs.[ 6 marks ]
+
+1) 0 17 * * 0-5 
+
+ANS: At 17:00 on every day-of-week from Sunday through Friday.
+ 
+2) 11 5 * * 5,6 
+
+ANS: At 05:11 on Friday and Saturday.
+  
+3)every Monday midnight 
+  
+  ANS: 0 0 * * 1
+
+( At minute 0 and hour 0, every day of the month, every month, and only on day 1 (Monday) of the week)
+
+4)0 */6 * * * 
+  
+ANS:At minute 0 past every 6th hour.
+
+5)0 7,17 * * * 
+
+ANS: At minute 0 past hour 7 and 17.
+
+
+
+6)* * * * *  sleep 15; /scripts/script.sh 
+ 
+ANS : Run the script '/scripts/script.sh' every day, 15 minutes after the system wakes up. 

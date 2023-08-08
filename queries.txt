@@ -1,0 +1,33 @@
+Task 2: Write queries using the ORG database we have used in class. [ 4 marks ]
+
+ANS:1
+SELECT  MAX(SALARY) As SECONDHighestSalary
+FROM org.worker where SALARY < (SELECT  MAX(SALARY) FROM org.worker); 
+  
+ANS2:
+WITH cte AS (
+  SELECT SALARY, ROW_NUMBER() OVER (ORDER BY SALARY DESC) AS rn
+  FROM worker
+)
+SELECT SALARY
+FROM cte
+WHERE rn = 5;
+
+In this query, a common table expression (CTE) named cte is used to assign a unique row number (rn) to each salary in the employees table, based on its value
+ in descending order. The row numbers and salaries are then stored in the CTE. Finally, the SELECT statement filters the CTE to return only the salary with a
+ row number of 5, which is the 5th highest salary.
+ 
+
+
+
+
+ANS3:
+CREATE TABLE new_table SELECT * FROM bonus; 
+
+
+
+ANS4:
+
+SELECT *
+FROM  org.worker 
+where SALARY % 2 <> 0;
